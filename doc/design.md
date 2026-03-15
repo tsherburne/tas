@@ -1,4 +1,4 @@
-Tom's Asphalt Service - CSS Design System
+## Tom's Asphalt Service - CSS Design System
 This document outlines the visual language and CSS architecture for the Tom's Asphalt Service (TAS) website. The design is intended to project durability, professionalism, and a long-standing family legacy.
 1. Color Palette
 The color strategy is based on "High-Contrast Utility." It draws direct inspiration from road construction, asphalt, and safety equipment.
@@ -38,6 +38,8 @@ The layout is built using Flexbox and CSS Grid.
  * Self-Centering Flex: The "50+ Years" badge in the About section uses flex-wrap: wrap combined with margin: 0 auto and justify-content: center to ensure that when it drops to a new line on smaller screens, it remains perfectly centered.
 5. CSS Variables (The "Source of Truth")
 The entire theme can be updated by modifying the :root variables:
+
+```
 :root {
     --primary-yellow: #ffcc00;
     --asphalt-dark: #1a1a1a;
@@ -45,4 +47,5 @@ The entire theme can be updated by modifying the :root variables:
     --radius: 4px;
     --transition: all 0.3s ease;
 }
+```
 
